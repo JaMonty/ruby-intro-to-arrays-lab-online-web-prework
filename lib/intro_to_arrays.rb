@@ -2,7 +2,7 @@ def  instantiate_new_array
   empty_array = [ ]
 end 
 def array_with_two_elements
-  lovers = ("jason", "ashley")
+  lovers = ("Jason", "Ashley")
 end
 def first_element(array)
   array [0]
