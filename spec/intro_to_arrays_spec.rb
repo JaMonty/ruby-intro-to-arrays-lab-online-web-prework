@@ -70,14 +70,14 @@ describe "working with arrays" do
     end
     
     describe "#first_element_with_array_methods" do 
-      it 'takes in an argument of an array and returns the first element in the array, without referencing the index number of that element' do
+      it "takes in an argument of an array and returns the first element in the array, without referencing the index number of that element" do
         first_country = first_element_with_array_methods(@south_east_asia)
         expect(first_country).to eq("Thailand")
       end
     end
 
     describe "#last_element_with_array_methods" do
-      it 'takes in an argument of an array and returns the last element in the array, wihtout referencing the index number' do
+      it "takes in an argument of an array and returns the last element in the array, wihtout referencing the index number" do
         last_country = last_element_with_array_methods(@south_east_asia)
         expect(last_country).to eq("Myanmar")
       end
